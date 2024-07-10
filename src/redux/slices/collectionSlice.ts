@@ -12,7 +12,6 @@ export const fetchCollection = createAsyncThunk(
   "collection/fetchCollection",
   async (collectionSlug: string) => {
     const response = await api.get(`/collection/${collectionSlug}/nfts`);
-    console.log("goooooooot data:", response.data);
     return response.data.nfts;
   }
 );

@@ -15,7 +15,6 @@ export const fetchNft = createAsyncThunk<
   const response = await api.get(
     `chain/${chain}/contract/${address}/nfts/${identifier}`
   );
-  console.log("goooooooot data:", response.data);
   return response.data.nft;
 });
 

@@ -18,7 +18,6 @@ export const fetchCollections = createAsyncThunk(
         limit: 6,
       },
     });
-    console.log(response.data);
     return response.data.collections;
   }
 );
