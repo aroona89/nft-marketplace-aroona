@@ -5,13 +5,13 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#2B2B2B];
+  @apply bg-background;
 }
 
-.font-work-sans {
-  font-family: "Work Sans", sans-serif;
+.work-sans {
+  @apply font-work-sans;
 }
 
-.font-space-mono {
-  font-family: "Space Mono", monospace;
+.space-mono {
+  @apply font-space-mono;
 }
