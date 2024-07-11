@@ -4,17 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Define the custom text color class in a layer */
-/* @layer utilities {
-  .text-primary-text {
-    color: theme("colors.primary-text");
-  }
-} */
-
-/* Set the default text color for the body element */
 body {
   @apply bg-[#2B2B2B];
-  /* @apply text-primary-text; */
 }
 
 .font-work-sans {
