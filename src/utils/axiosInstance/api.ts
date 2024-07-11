@@ -1,9 +1,10 @@
 import axios from "axios";
+const API_KEY = process.env.VITE_API_KEY;
 
 const api = axios.create({
   baseURL: "https://api.opensea.io/api/v2",
   headers: {
-    "X-API-KEY": "bc61ee4a3ddb40e4adce299e642569eb",
+    "X-API-KEY": API_KEY,
   },
 });
 
