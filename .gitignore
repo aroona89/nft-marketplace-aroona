@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 
-.env 
+# .env since it is my private repo, i'm not hiding it...
 
 # testing
 /coverage
