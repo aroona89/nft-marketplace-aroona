@@ -112,7 +112,6 @@ export default function DiscoverNfts(): React.JSX.Element {
               </div>
             </div>
           </div>
-
           <div className="mx-[-30px] md:mx-[-72px] lg:mx-[-115px]"></div>
           <button className=" md:hidden border-2 border-purple w-full h-[60px] rounded-[20px] flex items-center justify-center">
             <Link
