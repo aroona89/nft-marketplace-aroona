@@ -39,7 +39,7 @@ export default function DiscoverNfts(): React.JSX.Element {
               </p>
               <button className=" hidden border-2 border-purple w-[187px] h-[60px] rounded-[20px] md:flex items-center justify-center">
                 <Link
-                  to={`/collection/big-hugs`}
+                  to={`collection/big-hugs`}
                   className="flex items-center justify-center gap-[12px]"
                 >
                   <EyeIcon />
@@ -110,6 +110,17 @@ export default function DiscoverNfts(): React.JSX.Element {
               </div>
             </div>
           </div>
+
+          <div className="mx-[-30px] md:mx-[-72px] lg:mx-[-115px]"></div>
+          <button className=" md:hidden border-2 border-purple w-full h-[60px] rounded-[20px] flex items-center justify-center">
+            <Link
+              to={`/collection/big-hugs`}
+              className="flex items-center justify-center gap-[12px]"
+            >
+              <EyeIcon />
+              <span className="text-white">See All</span>
+            </Link>
+          </button>
           <div className="mx-[-30px] md:mx-[-72px] lg:mx-[-115px]"></div>
           <button className=" md:hidden border-2 border-purple w-full h-[60px] rounded-[20px] flex items-center justify-center">
             <Link

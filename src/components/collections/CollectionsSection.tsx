@@ -27,7 +27,7 @@ const CollectionsDetails: React.FC = () => {
               className="bg-[#3B3B3B]  shadow-md rounded-lg overflow-hidden h-[470px] lg:h-[450px]"
             >
               <Link
-                to={`/collection/${collections?.collection}`}
+                to={`collection/${collections?.collection}`}
                 key={collections?.collection}
               >
                 {collections.image_url && (
