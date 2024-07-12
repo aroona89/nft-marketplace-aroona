@@ -1,0 +1,40 @@
+Alhamdulillah! Exciting Project Milestone Achieved🎯
+
+I'm thrilled to announce that my 𝗡𝗙𝗧 𝗠𝗮𝗿𝗸𝗲𝘁𝗽𝗹𝗮𝗰𝗲 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 is now live!🚀
+Project-based learning poses significant challenges for newcomers with substantial knowledge gaps, and I'm proud to have bridged that gap and successfully completed the project, demonstrating my growth and commitment. 💌 
+
+
+📄 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄:
+The application is a React-based NFT marketplace that leverages the OpenSea API. Users can explore different NFT collections, view all NFTs within a specific collection, and access detailed information about a particular NFT.
+
+𝗛𝗼𝗺𝗲 𝗣𝗮𝗴𝗲: Displays a list of NFT collections with essential details and links to their respective collection pages.
+𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻 𝗣𝗮𝗴𝗲: Showcases all NFTs within a specific collection with basic information and links to individual NFT detail pages.
+𝗡𝗙𝗧 𝗗𝗲𝘁𝗮𝗶𝗹 𝗣𝗮𝗴𝗲: Provides comprehensive information about a specific NFT, including attributes, owner details, and additional metadata, with an option to view the NFT on the OpenSea website.
+
+
+🛠 𝗧𝗲𝗰𝗵 𝗦𝘁𝗮𝗰𝗸:
+This project utilizes a modern front-end development stack including:
+
+𝗥𝗲𝗮𝗰𝘁 (for building dynamic and reusable UI components)
+𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁 (ensures type safety and reduces errors)
+𝗧𝗮𝗶𝗹𝘄𝗶𝗻𝗱 𝗖𝗦𝗦 (provides a utility-first approach to styling)
+𝗥𝗲𝗱𝘂𝘅 (helps manage complex application state effectively)
+𝗔𝘅𝗶𝗼𝘀 (facilitates fetching data from APIs for a seamless user experience)
+
+
+🏄‍♀️𝗙𝗹𝗼𝘄 𝗳𝗼𝗿 𝗻𝗲𝘁𝘄𝗼𝗿𝗸 (𝗥𝗘𝗦𝗧 𝗔𝗣𝗜) 𝗰𝗮𝗹𝗹:
+𝗙𝗲𝘁𝗰𝗵𝗶𝗻𝗴 𝗗𝗮𝘁𝗮 𝗳𝗿𝗼𝗺 𝗔𝗣𝗜: Axios makes HTTP requests to the OpenSea API, retrieving the desired NFT data.
+𝗦𝘁𝗼𝗿𝗶𝗻𝗴 𝗗𝗮𝘁𝗮 𝗶𝗻 𝗥𝗲𝗱𝘂𝘅: The fetched data is then stored in the Redux store using actions and reducers. This makes the data accessible to different components of application.
+𝗗𝗶𝘀𝗽𝗹𝗮𝘆𝗶𝗻𝗴 𝗗𝗮𝘁𝗮 𝗶𝗻 𝗨𝗜: React components access the data from the Redux store using custom hook & useAppSelector to populate the user interface.
+
+
+🔗 𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁 𝗹𝗶𝗻𝗸:
+ https://nft-marketplace-aroona.vercel.app/
+
+
+𝗣𝗦🕊️: A huge thank you to everyone who supported and guided me during the Techloset Bootcamp journey, including my instructors Mudassar Khan, peers Minahil Ismail Ahmad Raza and the amazing community. Your encouragement has been invaluable!
+
+#TechloSet #fullstack #WebDevelopment #tech #creativity
+
+
+

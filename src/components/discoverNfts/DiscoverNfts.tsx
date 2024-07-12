@@ -121,6 +121,7 @@ export default function DiscoverNfts(): React.JSX.Element {
               <span className="text-white">See All</span>
             </Link>
           </button>
+<<<<<<< HEAD
           <div className="mx-[-30px] md:mx-[-72px] lg:mx-[-115px]"></div>
           <button className=" md:hidden border-2 border-purple w-full h-[60px] rounded-[20px] flex items-center justify-center">
             <Link
@@ -131,6 +132,8 @@ export default function DiscoverNfts(): React.JSX.Element {
               <span className="text-white">See All</span>
             </Link>
           </button>
+=======
+>>>>>>> b69eba96812fbf67f162648e020a77b7dc92ec76
         </div>
       </div>
     </>
