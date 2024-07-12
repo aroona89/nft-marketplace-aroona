@@ -60,7 +60,7 @@ const HeroData = () => {
             </div>
             <div className="flex flex-col items-center md:w-2/3 lg:w-2/3 gap-0">
               <Link
-                to={`/collection/${item?.collection}`}
+                to={`collection/${item?.collection}`}
                 key={item?.collection}
               >
                 <div
@@ -80,7 +80,7 @@ const HeroData = () => {
                     style={{ backgroundImage: `url(${Avatar})` }}
                   ></div>
                   <Link
-                    to={`collection/${item?.collection}`}
+                    to={`/collection/${item?.collection}`}
                     key={item?.category}
                   >
                     <span className="text-white text-base md:text-lg">

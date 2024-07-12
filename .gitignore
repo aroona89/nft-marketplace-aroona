@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 
-# .env "no need to hide open sea api key as it is private repo"
+# .env since it is my private repo, i'm not hiding it...
 
 # testing
 /coverage

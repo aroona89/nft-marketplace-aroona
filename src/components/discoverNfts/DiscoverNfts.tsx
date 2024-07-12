@@ -39,7 +39,7 @@ export default function DiscoverNfts(): React.JSX.Element {
               </p>
               <button className=" hidden border-2 border-purple w-[187px] h-[60px] rounded-[20px] md:flex items-center justify-center">
                 <Link
-                  to={`/collection/big-hugs`}
+                  to={`collection/big-hugs`}
                   className="flex items-center justify-center gap-[12px]"
                 >
                   <EyeIcon />

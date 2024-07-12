@@ -25,7 +25,7 @@ export default function NftHighlight() {
           <div
             key={i}
             style={{
-              backgroundImage: `url(${item.image_url})`,
+              backgroundImage: `url(${item.banner_image_url})`,
             }}
             className="bg-cover bg-no-repeat z-0 w-full mt-0"
           >
@@ -44,7 +44,7 @@ export default function NftHighlight() {
                         </div>
                       </div>
                       <div className="text-white z-50  text-base font-normal work-sans leading-snug">
-                        lilpudgys
+                        {item.name}
                       </div>
                     </div>
                     <div className="z-50 text-white text-[38px] lg:text-[51px] font-semibold work-sans capitalize leading-[56.10px]">
