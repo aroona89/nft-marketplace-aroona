@@ -30,13 +30,15 @@ export default function DiscoverNfts(): React.JSX.Element {
       <div className="px-[30px] py-[40px] md:px-[72px] lg:px-[115px] lg:py-[80px]">
         <div className="flex flex-col gap-[40px] md:gap-[60px] max-w-[1050px] mx-auto ">
           <div className="flex flex-col gap-[10px]">
-            <h3 className="text-white font-semibold text-[28px] lg:text-[38px]">
-              Discover More NFTs
-            </h3>
             <div className="flex justify-between items-center">
-              <p className="text-white text-[16px] lg:text-[22px] ">
-                Explore new trending NFTs
-              </p>
+              <div>
+                <h3 className="text-white font-semibold text-[28px] lg:text-[38px]">
+                  Discover More NFTs
+                </h3>
+                <p className="text-white text-[16px] lg:text-[22px] ">
+                  Explore new trending NFTs
+                </p>
+              </div>
               <button className=" hidden border-2 border-purple w-[187px] h-[60px] rounded-[20px] md:flex items-center justify-center">
                 <Link
                   to={`collection/big-hugs`}
