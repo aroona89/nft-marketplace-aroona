@@ -11,7 +11,9 @@ const initialState: CollectionState = {
 export const fetchCollection = createAsyncThunk(
   "collection/fetchCollection",
   async (collectionSlug: string) => {
-    const response = await api.get(`/collection/${collectionSlug}/nfts`);
+    const response = await api.get(
+      `/collection/${collectionSlug}/nfts` //Proxy Serve for local: Ensure CORS response header values are valid
+    );
     return response.data.nfts;
   }
 );
