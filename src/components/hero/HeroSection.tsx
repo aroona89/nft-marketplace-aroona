@@ -26,10 +26,10 @@ const HeroData = () => {
         return (
           <section
             key={i}
-            className="flex flex-col md:flex-row justify-between items-center px-4 py-8 md:px-16 md:py-16 lg:px-24 lg:py-16"
+            className="flex flex-col md:flex-row justify-between items-center gap-[30px] py-[40px] md:py-[80px] lg:px-[195px] lg:py-[80px]"
           >
-            <div className="flex flex-col items-start gap-6 w-full md:w-1/2 lg:w-1/3 mb-10 md:mb-0 md:mr-10">
-              <div className="flex flex-col items-start gap-2">
+            <div className="flex flex-col items-start gap-[30px] w-full md:w-1/2 lg:w-1/3 mb-10 md:mb-0 md:mr-10">
+              <div className="flex flex-col items-start gap-[20px]">
                 <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-semibold capitalize">
                   Discover digital art & Collect NFTs
                 </h1>
@@ -38,12 +38,12 @@ const HeroData = () => {
                   and sell art from more than 20k NFT artists.
                 </p>
               </div>
-              <button className="flex items-center justify-center w-full md:w-auto bg-purple-600 text-white py-3 px-6 rounded-lg text-base md:text-lg lg:text-xl">
-                <img src={Rocket} alt="Rocket" className="w-5 h-5 mr-2" />
+              <button className="flex items-center justify-center w-[224px] h-[60px] md:w-auto bg-purple-600 text-white px-[50px] gap-[12px] rounded-[20px] text-base md:text-lg lg:text-xl">
+                <img src={Rocket} alt="Rocket" className="w-[20px] h-[20px]" />
                 <span>Get Started</span>
               </button>
 
-              <div className="flex justify-center md:justify-start mt-6 text-white">
+              <div className="flex justify-center md:justify-start text-white">
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-semibold">240k+</h3>
                   <p className="text-lg">Total Sale</p>
@@ -64,13 +64,13 @@ const HeroData = () => {
                 key={item?.collection}
               >
                 <div
-                  className="w-[400px] md:h-63 bg-center bg-cover overflow-hidden h-[400px] lg:h-[450px]"
+                  className="ls:w-[510px] sm:w-[330px] sm:h-[221px] w-[315px] h-[206px] bg-center bg-cover rounded-tl-[20px] rounded-tr-[22px] overflow-hidden ls:h-[401px]"
                   style={{
                     backgroundImage: `url(${item.image_url})`,
                   }}
                 ></div>
               </Link>
-              <div className="flex flex-col justify-center items-start w-[400px] bg-[#3B3B3B] p-6 rounded-b-lg">
+              <div className="flex flex-col justify-center items-start ls:w-[510px] h-[109px] sm:w-[330px] w-[315px] bg-[#3B3B3B] p-2 rounded-bl-[22px] rounded-br-[22px]">
                 <h2 className="text-white text-xl md:text-2xl lg:text-3xl font-semibold capitalize">
                   {item.collection}
                 </h2>

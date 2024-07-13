@@ -21,3 +21,7 @@ The application is a React-based NFT marketplace that leverages the [OpenSea API
 ### 🔗 Deployment link:
 
 https://nft-marketplace-aroona.vercel.app/
+
+### run the server:
+
+npm start
